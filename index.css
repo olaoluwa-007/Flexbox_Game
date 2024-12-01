@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "outfit" sans-serif;
+    font-style: normal;
+    background-color: #1e1e1e;
+    color: #fff;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292941;
+    padding: 15px;
+    color: white;
+    height: 85px;
+}
+
+.logo{
+    font-family: "sora" sans-serif ;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.navbar .menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover{
+    color: yellow;
+}
+
+/* analytics section */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color: #5e5ed1;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* game section */
+.game-container{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #292941;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* header */
+.game-header h1{
+    font-size: 1.5em;
+    text-align: center;
+    color: #fc0;
+}
+
+/* instructions */
+.game-instruction{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* input section */
+.game-input{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.game-input input{
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.game-input button{
+    padding: 8px 12px;
+    background-color: #3a3a3d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-input button:hover{
+    background-color: #4c43bc;
+}
+
+/* result */
+
+.game-result{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #343450;
+    border-radius: 5px;
+    color: #ff6e6b;
+}
+
+/* game control */
+
+.game-controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-controls button{
+    background-color: #5e5ed1;
+    color: #f4f4f4;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-controls button:hover{
+    background-color: #7a7adb;
+}
+
+.score p{
+    font-size: 0.9em;
+    color: #cccccc;
+}
